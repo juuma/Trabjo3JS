@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: #1b0702;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(img/fondo-01.png);
+}
+h3 {
+    margin: 1.8rem 0 2rem 0;
+    line-height: 1.6rem;
+}
+.seccion-container {
+    color: white;
+    text-align: center;
+    padding: 4rem;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+.seccion-container h3 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#input {
+    background-color: #fcd895;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1rem;
+    width: 200px;
+}
+input {
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.input-btn {
+    display: flex;
+    gap: 20px;
+    color:rgb(0, 0, 0);
+}
+#darOk {
+    background: linear-gradient(45deg, #ff8d0c, #e90b0b);
+    padding: 11px;
+    border-radius: 20px;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nombrePizza {
+    max-width: 400px;
+    margin: 2rem 0 1rem 0;
+    letter-spacing: 1px;
+}
+.precioPizza {
+    max-width: 400px;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
